@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Instagram;
+    src: url(#);
+}
+a{
+    text-decoration:
+}
+
+: :root{
+    --grey-border: #dbdbdb;
+    --space-grey: #a8a8a8;
+}
+
+h1{
+    font-family: Instagram;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1200px;
+}
+
+form, .no-account{
+    border: solid 1px var(--grey-border);
+}
